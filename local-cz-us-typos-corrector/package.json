@@ -1,0 +1,35 @@
+{
+  "name": "cz-us-typos-corrector",
+  "displayName": "Correct CZ<->US keyboard typos ",
+  "description": "Replace US characters with Czech keyboard equivalents and back.",
+  "version": "0.0.2",
+  "publisher": "pulpanj",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pulpanj/vsce"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Text Editing"
+  ],
+  "activationEvents": [
+    "onCommand:extension.replaceUStoCzech",
+    "onCommand:extension.replaceCzechToUS"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.replaceUStoCzech",
+        "title": "Replace US keystrokes by ones from Czech keyboard"
+      },
+      {
+        "command": "extension.replaceCzechToUS",
+        "title": "Replace Czech keystrokes by ones from US keyboard"
+      }
+    ]
+  }
+}
