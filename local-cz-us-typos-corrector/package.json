@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "categories": [
-    "Text Editing"
+    "Other"
   ],
   "activationEvents": [
     "onCommand:extension.replaceUStoCzech",
