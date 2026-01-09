@@ -2,7 +2,7 @@
   "name": "cz-us-typos-corrector",
   "displayName": "Correct CZ<->US keyboard typos ",
   "description": "Replace US characters with Czech keyboard equivalents and back.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "pulpanj",
   "repository": {
     "type": "git",
