@@ -1,4 +1,5 @@
 ---
 title: CZ<->US-typos-corrector
+lang: en 
 ---
 {{< include ../local-cz-us-typos-corrector/README.md >}}
