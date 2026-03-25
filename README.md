@@ -1,14 +1,13 @@
-# VS code extensions
 This repository contains Visual Studio Code extensions that I was trying to develop.
 
-## Extensions
+# Extensions
 
-## CZ<->US-typos-corrector
+### CZ<->US-typos-corrector
 
 Replace US characters with Czech keyboard equivalents and back.
 
 
-## 📦 Development
+# 📦 Development of VS code extensions
 
 Clone the repo and install dependencies:
 

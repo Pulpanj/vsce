@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hand-made VS code extensions",
+    "section": "",
+    "text": "index here\nThis repository contains Visual Studio Code extensions that I was trying to develop.\n\nExtensions\n\nCZ&lt;-&gt;US-typos-corrector\nReplace US characters with Czech keyboard equivalents and back.\n\n\n\n📦 Development of VS code extensions\nClone the repo and install dependencies:\ngit clone https://github.com/Pulpanj/vsce.git\ncd vsce \nnpm install\nnpm install -g vsce\nSummary of the VSC extension development process is described here",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#extensions",
+    "href": "index.html#extensions",
+    "title": "Developed VS code extensions",
+    "section": "Extensions",
+    "text": "Extensions\n\nCZ&lt;-&gt;US-typos-corrector\nReplace US characters with Czech keyboard equivalents and back.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cz-us-typos-corrector",
+    "href": "index.html#cz-us-typos-corrector",
+    "title": "Developed VS code extensions",
+    "section": "1.2 CZ<->US-typos-corrector",
+    "text": "1.2 CZ&lt;-&gt;US-typos-corrector\nReplace US characters with Czech keyboard equivalents and back.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>title: Summary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#development",
+    "href": "index.html#development",
+    "title": "Developed VS code extensions",
+    "section": "📦 Development",
+    "text": "📦 Development\nClone the repo and install dependencies:\ngit clone https://github.com/Pulpanj/vsce.git\ncd vsce \nnpm install\nnpm install -g vsce\nSummary of the VSC extension development process is described here",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "../local-cz-us-typos-corrector/README.html",
+    "href": "../local-cz-us-typos-corrector/README.html",
+    "title": "CZ<->US-typos-corrector",
+    "section": "",
+    "text": "Purpose\nReplace US characters with Czech keyboard equivalents and back.\nWhen writing Czech text it is common mistake to type using US keyboard layout, resulting in wrong characters. This extension helps to quickly fix such typos by replacing characters typed with US layout to their Czech equivalents and vice versa.\nLife saver for bad typists like me!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CZ<->US-typos-corrector</span>"
+    ]
+  },
+  {
+    "objectID": "../local-cz-us-typos-corrector/README.html#usage",
+    "href": "../local-cz-us-typos-corrector/README.html#usage",
+    "title": "CZ<->US-typos-corrector",
+    "section": "Usage",
+    "text": "Usage\n\nSelect text in the editor.\nRun the command Replace US keystrokes by ones from Czech keyboard or Replace Czech keystrokes by ones from US keyboard via Command Palette (Ctrl+Shift+P)\n\nor better\n\nbind shortcuts in keybindings.json (open using Command Palette Ctrl+Shift+P and type Preferences: Open Keyboard Shortcuts (JSON)) by adding the following lines:\n\n[\n   {\n        \"key\": \"ctrl+alt+r\",\n        \"command\": \"extension.replaceUStoCzech\",\n        \"when\": \"editorTextFocus\"\n    },\n    {\n        \"key\": \"ctrl+alt+t\",\n        \"command\": \"extension.replaceCzechToUS\",\n        \"when\": \"editorTextFocus\"\n    }\n]\n\nSelect text in the editor.\nUse the shortcuts CTRL+ALT+R or CTRL+ALT+T to trigger the commands.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CZ<->US-typos-corrector</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "Developed VS code extensions",
+    "section": "4.1 Usage",
+    "text": "4.1 Usage\n\nSelect text in the editor.\nRun the command Replace US keystrokes by ones from Czech keyboard or Replace Czech keystrokes by ones from US keyboard via Command Palette (Ctrl+Shift+P)\n\nor better\n\nbind shortcuts in keybindings.json (open using Command Palette Ctrl+Shift+P and type Preferences: Open Keyboard Shortcuts (JSON)) by adding the following lines:\n\n[\n   {\n        \"key\": \"ctrl+alt+r\",\n        \"command\": \"extension.replaceUStoCzech\",\n        \"when\": \"editorTextFocus\"\n    },\n    {\n        \"key\": \"ctrl+alt+t\",\n        \"command\": \"extension.replaceCzechToUS\",\n        \"when\": \"editorTextFocus\"\n    }\n]\n\nSelect text in the editor.\nUse the shortcuts CTRL+ALT+R or CTRL+ALT+T to trigger the commands.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+    ]
+  },
+  {
+    "objectID": "local-cz-us-typos-corrector.html",
+    "href": "local-cz-us-typos-corrector.html",
+    "title": "CZ<->US-typos-corrector",
+    "section": "",
+    "text": "Replace US characters with Czech keyboard equivalents and back.\n\nPurpose\nWhen writing Czech text it is common mistake to type using US keyboard layout, resulting in wrong characters. This extension helps to quickly fix such typos by replacing characters typed with US layout to their Czech equivalents and vice versa.\nLife saver for bad typists like me!\n\n\nFeatures\nThis extension adds two commands:\n\nReplace US keystrokes by ones from Czech keyboard\n\nIt converts e.g. 1234567890 in the editor selection to +ěščřžýáíé (key binding to CTRL+ALT+R is bellow)\n\nReplace Czech keystrokes by ones from US keyboard\n\nIt converts e.g. +ěščřžýáíé in the editor selection to 1234567890 (key binding to CTRL+ALT+T is bellow)\n\n\nUsage\n\nSelect text in the editor.\nRun the command Replace US keystrokes by ones from Czech keyboard or Replace Czech keystrokes by ones from US keyboard via Command Palette (Ctrl+Shift+P)\n\nor better\n\nbind shortcuts in keybindings.json (open using Command Palette Ctrl+Shift+P and type Preferences: Open Keyboard Shortcuts (JSON)) by adding the following lines:\n\n[\n   {\n        \"key\": \"ctrl+alt+r\",\n        \"command\": \"extension.replaceUStoCzech\",\n        \"when\": \"editorTextFocus\"\n    },\n    {\n        \"key\": \"ctrl+alt+t\",\n        \"command\": \"extension.replaceCzechToUS\",\n        \"when\": \"editorTextFocus\"\n    }\n]\n\nSelect text in the editor.\nUse the shortcuts CTRL+ALT+R or CTRL+ALT+T to trigger the commands.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CZ<->US-typos-corrector</span>"
+    ]
+  },
+  {
+    "objectID": "local-cz-us-typos-corrector.html#usage",
+    "href": "local-cz-us-typos-corrector.html#usage",
+    "title": "CZ<->US-typos-corrector",
+    "section": "Usage",
+    "text": "Usage\n\nSelect text in the editor.\nRun the command Replace US keystrokes by ones from Czech keyboard or Replace Czech keystrokes by ones from US keyboard via Command Palette (Ctrl+Shift+P)\n\nor better\n\nbind shortcuts in keybindings.json (open using Command Palette Ctrl+Shift+P and type Preferences: Open Keyboard Shortcuts (JSON)) by adding the following lines:\n\n[\n   {\n        \"key\": \"ctrl+alt+r\",\n        \"command\": \"extension.replaceUStoCzech\",\n        \"when\": \"editorTextFocus\"\n    },\n    {\n        \"key\": \"ctrl+alt+t\",\n        \"command\": \"extension.replaceCzechToUS\",\n        \"when\": \"editorTextFocus\"\n    }\n]\n\nSelect text in the editor.\nUse the shortcuts CTRL+ALT+R or CTRL+ALT+T to trigger the commands.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CZ<->US-typos-corrector</span>"
+    ]
+  }
+]

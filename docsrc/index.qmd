@@ -1,0 +1,11 @@
+---
+title: Summary
+---   
+
+<!-- --- -->
+index here
+
+{{< include ../README.md >}}
+
+
+Summary of the VSC extension development process is described [ here ](./process.qmd)

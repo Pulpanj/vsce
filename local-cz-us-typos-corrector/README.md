@@ -1,4 +1,3 @@
-# CZ<->US-typos-corrector
 
 Replace US characters with Czech keyboard equivalents and back.
 
@@ -24,7 +23,7 @@ It converts e.g. `1234567890` in the editor selection to `+ěščřžýáíé` (
 
 It converts e.g. `+ěščřžýáíé` in the editor selection to `1234567890` (key binding to **CTRL+ALT+T** is bellow)
 
-## Usage
+# Usage
 
 1. Select text in the editor.
 2. Run the command `Replace US keystrokes by ones from Czech keyboard` or `Replace Czech keystrokes by ones from US keyboard` via Command Palette (`Ctrl+Shift+P`) 

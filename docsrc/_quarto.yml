@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: ../docs
+
+author: 
+  name: "Jarda Půlpán"
+  email: "pulpanj@volny.cz"
+  date: "02/04/2026"
+
+lang: en 
+date-format: iso 
+
+book:
+  title: "Hand-made VS code extensions"
+  # author: "Jaroslav Pulpan"
+  page-navigation: false
+  chapters:
+    - index.qmd
+    - local-cz-us-typos-corrector.qmd
+
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+    number-sections: false
+    toc-depth: 4       # Optional: controls heading levels shown
+    # toc-expand: false
+    # smooth-scroll: true
+    # theme:
+    #     # - lux,cosmo
+    #     # - brand
+    #     light: brand
+    #     dark: slate 
